@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy: stark-oasis-75119
+  provider: heroku
+  api_key:
+    secure: Bl/uKK9PZ7Z/lxcsewOp2uhy84LvhJQ0fiFQEwl7dbSHjlyPttGiXet+TCagqUUY6VXYnkyNn3Yy6Nm0kwq79Fn97CkSajRXM0aah50CTCizMBt79hAtcPa2DHzfOJFkdCihT0RKXb/+p2z2hWBm9FNjOs2lO2ozi9Samk8mAG1XLezPTUHy55qrNqOwf+lZ7oktY7OrcUXZpEZHVRwuoJKCVkC0piqNN+qwtwBb1z879AUW4UnfZalFvz4haWdd13e41aF+GVE3srFSWulKtBLfBqGi5gj7xZ5CVclYaBj0vxjQDS2NMYXC5XiABldgkBTwu3k5tzC/0nZhkp/grZjMCb7A8D1far+PG/LlHDyycu6Y6GWrJbZrdPrcTMZbLsG0JlXEkFvcQBxQnwo1b2AtaCNCcLoLDAnSepZZE/cYuBEsPkrTGz/yODNmw0uTx29S7NAkS9djmbfmcE7FhTBkxm4y6XJhxGkSHXY1xb0rBaM9HKS3Zdn+23ni9LLAq3VTpe1v4X1GrpWyPmguBM5k6y8eS/cmZ2+5xfrI/p9Lll5yPrJ0UTmbM1RPhUmuB/TZ4ormAzUb2KszXJNAu5662l3aUrCd5w7fFS1+KurrAXUJaojgpY3W6JDN7UqVx6/jyOoR2XIXbFqtwU9gWAcOBe3XjPtGkDwH68SCoLw=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: condericson/node-shopping-list-integration-tests
